@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		918E3A802C736DCF00748FD7 /* SparkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E3A7F2C736DCF00748FD7 /* SparkApp.swift */; };
-		918E3A822C736DCF00748FD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E3A812C736DCF00748FD7 /* ContentView.swift */; };
+		918E3A822C736DCF00748FD7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E3A812C736DCF00748FD7 /* Home.swift */; };
 		918E3A842C736DD000748FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918E3A832C736DD000748FD7 /* Assets.xcassets */; };
 		918E3A872C736DD000748FD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918E3A862C736DD000748FD7 /* Preview Assets.xcassets */; };
+		918E3A902C73838900748FD7 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E3A8F2C73838900748FD7 /* CustomProgressView.swift */; };
+		918E3A922C7388AD00748FD7 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E3A912C7388AD00748FD7 /* ChipView.swift */; };
+		918E3A952C738CFA00748FD7 /* LevelInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E3A942C738CFA00748FD7 /* LevelInfoView.swift */; };
+		918E3A972C738E2300748FD7 /* CheckListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E3A962C738E2300748FD7 /* CheckListView.swift */; };
+		918E3A9A2C738EC800748FD7 /* CheckItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E3A992C738EC700748FD7 /* CheckItem.swift */; };
+		918E3A9C2C74CB2E00748FD7 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E3A9B2C74CB2E00748FD7 /* SideMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		918E3A7C2C736DCF00748FD7 /* Spark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		918E3A7F2C736DCF00748FD7 /* SparkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkApp.swift; sourceTree = "<group>"; };
-		918E3A812C736DCF00748FD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		918E3A812C736DCF00748FD7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		918E3A832C736DD000748FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		918E3A862C736DD000748FD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		918E3A8F2C73838900748FD7 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		918E3A912C7388AD00748FD7 /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
+		918E3A942C738CFA00748FD7 /* LevelInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelInfoView.swift; sourceTree = "<group>"; };
+		918E3A962C738E2300748FD7 /* CheckListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListView.swift; sourceTree = "<group>"; };
+		918E3A992C738EC700748FD7 /* CheckItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckItem.swift; sourceTree = "<group>"; };
+		918E3A9B2C74CB2E00748FD7 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,10 @@
 		918E3A7E2C736DCF00748FD7 /* Spark */ = {
 			isa = PBXGroup;
 			children = (
+				918E3A982C738EA700748FD7 /* Model */,
+				918E3A8E2C736DE100748FD7 /* Component */,
+				918E3A8D2C736DD700748FD7 /* View */,
 				918E3A7F2C736DCF00748FD7 /* SparkApp.swift */,
-				918E3A812C736DCF00748FD7 /* ContentView.swift */,
 				918E3A832C736DD000748FD7 /* Assets.xcassets */,
 				918E3A852C736DD000748FD7 /* Preview Content */,
 			);
@@ -65,6 +79,42 @@
 				918E3A862C736DD000748FD7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		918E3A8D2C736DD700748FD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				918E3A932C738CE900748FD7 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		918E3A8E2C736DE100748FD7 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				918E3A8F2C73838900748FD7 /* CustomProgressView.swift */,
+				918E3A912C7388AD00748FD7 /* ChipView.swift */,
+				918E3A962C738E2300748FD7 /* CheckListView.swift */,
+				918E3A9B2C74CB2E00748FD7 /* SideMenu.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		918E3A932C738CE900748FD7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				918E3A812C736DCF00748FD7 /* Home.swift */,
+				918E3A942C738CFA00748FD7 /* LevelInfoView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		918E3A982C738EA700748FD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				918E3A992C738EC700748FD7 /* CheckItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				918E3A822C736DCF00748FD7 /* ContentView.swift in Sources */,
+				918E3A922C7388AD00748FD7 /* ChipView.swift in Sources */,
+				918E3A822C736DCF00748FD7 /* Home.swift in Sources */,
 				918E3A802C736DCF00748FD7 /* SparkApp.swift in Sources */,
+				918E3A9C2C74CB2E00748FD7 /* SideMenu.swift in Sources */,
+				918E3A902C73838900748FD7 /* CustomProgressView.swift in Sources */,
+				918E3A9A2C738EC800748FD7 /* CheckItem.swift in Sources */,
+				918E3A952C738CFA00748FD7 /* LevelInfoView.swift in Sources */,
+				918E3A972C738E2300748FD7 /* CheckListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
